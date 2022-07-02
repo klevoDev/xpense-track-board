@@ -25,7 +25,7 @@
 @font-face {
   font-display: swap;
   font-family: "Hind Siliguri";
-  src: url("./../fonts/hind-siliguri-v12-latin-500.woff2") format("woff2"), url("./../fonts/hind-siliguri-v12-latin-500.woff") format("woff");
+  src: url("./../fonts/hind-siliguri-v12-latin-700.woff2") format("woff2"), url("./../fonts/hind-siliguri-v12-latin-700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -85,6 +85,13 @@ body {
   padding: 0 -15px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  color: #bdbdbd;
 }
 
 .header {
@@ -161,4 +168,66 @@ body {
 .header__button:hover {
   color: #ff7235;
   border: 1px solid #ff7235;
+}
+
+.page__track {
+  margin-bottom: 211px;
+}
+
+.track__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.track__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 8px 30px 0 0;
+}
+
+.track__heading {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  color: #292830;
+  margin-bottom: 20px;
+}
+
+.track__text {
+  margin-bottom: 40px;
+}
+
+.track__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.track__ref {
+  padding: 18px 58px 24px;
+  background: #ff7235;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.track__desc {
+  margin-left: 24px;
+}
+
+.track__wrap-image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 538px;
+          flex: 0 0 538px;
+}
+
+.track__image {
+  max-width: 100%;
 }
