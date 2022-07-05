@@ -1,0 +1,19 @@
+.brands {
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        justify-content: space-between;
+    }
+
+    &__column {
+    }
+
+    &__wrap-image {
+        margin: 90px 0 73px;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+}

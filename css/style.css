@@ -171,7 +171,12 @@ body {
 }
 
 .page__track {
-  margin-bottom: 211px;
+  padding-bottom: 211px;
+}
+
+.page__overview {
+  padding: 87px 0 0;
+  background-color: #ff7235;
 }
 
 .track__row {
@@ -215,7 +220,7 @@ body {
   padding: 18px 58px 24px;
   background: #ff7235;
   border-radius: 8px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .track__desc {
@@ -229,5 +234,29 @@ body {
 }
 
 .track__image {
+  max-width: 100%;
+}
+
+.overview__img {
+  max-width: 100%;
+}
+
+.brands__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brands__wrap-image {
+  margin: 90px 0 73px;
+}
+
+.brands__image {
   max-width: 100%;
 }
