@@ -1,0 +1,39 @@
+.support {
+    &__row {
+        display: flex;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+        padding: 0 31px 0;
+    }
+
+    &__label {
+        margin-bottom: 24px;
+    }
+
+    &__subheading {
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        margin-bottom: 24px;
+    }
+
+    &__wrap-more {
+    }
+
+    &__more {
+    }
+
+    &__wrap-img {
+        margin-top: 51px;
+        flex: 0 0 540px;
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+}
+
+//added section support & cost
