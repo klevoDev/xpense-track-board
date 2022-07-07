@@ -21,15 +21,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-._icon-diamond:before {
+._icon-case:before {
   content: "\e900";
 }
-._icon-grey-check:before {
+._icon-cloud:before {
   content: "\e901";
 }
-// ._icon-cube:before {
-//   content: "\e902";
-// }
-._icon-cube::after {
+._icon-code:before {
   content: "\e902";
+}
+._icon-facebook:before {
+  content: "\e903";
+}
+._icon-grey-check:before {
+  content: "\e904";
+}
+._icon-right-arrow-strong:before {
+  content: "\e905";
+}
+._icon-twitter:before {
+  content: "\e906";
+}
+._icon-diamond:before {
+  content: "\e907";
+}
+._icon-gift:before {
+  content: "\e908";
+}
+._icon-linkedin:before {
+  content: "\e909";
+}
+._icon-platform:before {
+  content: "\e90a";
 }
