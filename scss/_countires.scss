@@ -1,0 +1,51 @@
+.countires {
+    &__title {
+        color: #fff;
+
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 100%;
+
+        text-align: center;
+
+        color: #fff;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__wrap {
+        &_screen {
+        }
+
+        &_scr {
+        }
+    }
+
+    &__screen {
+    }
+
+    &__wrap-button {
+        margin-top: 60px;
+    }
+
+    &__button {
+        font-size: 22px;
+        line-height: 95%;
+        background: #fff;
+        color: #ff7235;
+
+        &::after {
+            background: url("./../img/chek-down-orange.png");
+        }
+    }
+
+    &__scr {
+    }
+}

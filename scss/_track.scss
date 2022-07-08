@@ -35,23 +35,6 @@
     }
 
     &__ref {
-        padding: 18px 58px 24px 24px;
-        background: #ff7235;
-        border-radius: 8px;
-
-        color: #fff;
-        position: relative;
-
-        &::after {
-            content: "";
-            position: absolute;
-            top: 25px;
-            right: 24px;
-
-            width: 24px;
-            height: 24px;
-            background: url("./../img/check.png");
-        }
     }
 
     &__desc {

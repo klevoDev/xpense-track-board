@@ -1,4 +1,6 @@
 .page {
+    flex: 1 1 auto;
+
     &__track {
         padding-bottom: 211px;
     }
@@ -30,5 +32,10 @@
 
     &__plan {
         padding: 70px 0;
+    }
+
+    &__countires {
+        padding: 70px 0;
+        background-color: #ff7235;
     }
 }
