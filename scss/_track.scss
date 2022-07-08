@@ -31,12 +31,6 @@
         line-height: 39px;
     }
 
-    &__point {
-    }
-
-    &__ref {
-    }
-
     &__desc {
         margin-left: 24px;
     }
@@ -47,5 +41,92 @@
 
     &__image {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 1335px) {
+    .track {
+        &__row {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__body {
+            padding: 0;
+            margin-bottom: 50px;
+        }
+
+        &__heading {
+            text-align: center;
+        }
+
+        &__text {
+            text-align: center;
+        }
+
+        &__list {
+            justify-content: center;
+        }
+
+        &__desc {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .track {
+        &__heading {
+            font-size: 50px;
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__list {
+            display: block;
+            text-align: center;
+        }
+
+        &__point {
+            margin-bottom: 40px;
+        }
+
+        &__desc {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .track {
+        &__heading {
+            font-size: 35px;
+        }
+
+        &__desc {
+            font-size: 20px;
+        }
+
+        &__wrap-image {
+            flex: 0 0 438px;
+        }
+
+        &__image {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .track {
+        &__wrap-image {
+            flex: 0 0 280px;
+        }
+
+        &__image {
+            max-width: 100%;
+        }
     }
 }

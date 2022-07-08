@@ -83,3 +83,46 @@
         }
     }
 }
+
+@media (max-width: 940px) {
+    .header {
+        &__row {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__wrap-logo {
+            margin-bottom: 50px;
+        }
+
+        &__list {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .header {
+            &__row {
+            }
+
+            &__list {
+                display: block;
+                font-size: 25px;
+                margin-bottom: 70px;
+                text-align: center;
+            }
+
+            &__item {
+                margin-bottom: 50px;
+                margin-left: 0;
+            }
+
+            &__button {
+                text-align: center;
+                font-size: 25px;
+            }
+        }
+    }
+}

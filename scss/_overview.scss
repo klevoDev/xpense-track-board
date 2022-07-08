@@ -1,21 +1,14 @@
 .overview {
     &__wrap-img {
-        // position: relative;
-
-        // &::before {
-        //     content: "";
-        //     position: absolute;
-        //     top: 200px;
-        //     left: -228px;
-
-        //     width: 644.61px;
-        //     height: 4537.21px;
-        //     background: url("./../img/before-egg.png") 0 0 / contain no-repeat;
-        //     z-index: 0;
-        // }
     }
 
     &__img {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .overview {
+        padding: 15px 0 0;
     }
 }
