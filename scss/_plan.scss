@@ -144,3 +144,78 @@
         margin-bottom: 27px;
     }
 }
+
+@media (max-width: 1335px) {
+    .plan {
+        &__row {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__column {
+            padding: 30px 15px;
+            flex: 0 1 40%;
+        }
+
+        &__item {
+            padding: 40px 36px 60px 36px;
+            text-align: center;
+        }
+
+        &__point {
+            &::before {
+                content: "";
+                position: absolute;
+                top: 8px;
+                left: 60px;
+
+                width: 17px;
+                height: 13px;
+                background: url("./../img/grey-check.png");
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .plan {
+        &__title {
+            font-size: 50px;
+        }
+
+        &__column {
+            padding: 30px 15px;
+            flex: 0 1 90%;
+        }
+
+        &__item {
+            padding: 40px 36px 60px 36px;
+        }
+
+        &__point {
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .plan {
+        &__column {
+            flex: 0 1 100%;
+        }
+
+        &__item {
+            padding: 20px 10px 60px;
+        }
+
+        &__subtitle {
+            font-size: 25px;
+        }
+
+        &__list {
+            font-size: 14px;
+        }
+    }
+}

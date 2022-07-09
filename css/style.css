@@ -926,10 +926,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .product__column {
-  padding: 0 15px;
+  padding: 15px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 33.3334%;
           flex: 0 1 33.3334%;
@@ -1035,6 +1037,68 @@ body {
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 1335px) {
+  .product__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product__subheading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .product__text {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .product__range {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product__column {
+    padding: 25px 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 40%;
+            flex: 0 1 40%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .product__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product__column {
+    padding: 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 80%;
+            flex: 0 1 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .product__subheading {
+    font-size: 50px;
+  }
+  .product__text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .product__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .product__subtitle {
+    text-align: center;
+  }
 }
 
 .plan__title {
@@ -1166,6 +1230,70 @@ body {
   font-size: 24px;
   color: #4d12ee;
   margin-bottom: 27px;
+}
+
+@media (max-width: 1335px) {
+  .plan__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .plan__column {
+    padding: 30px 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 40%;
+            flex: 0 1 40%;
+  }
+  .plan__item {
+    padding: 40px 36px 60px 36px;
+    text-align: center;
+  }
+  .plan__point::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    width: 17px;
+    height: 13px;
+    background: url("./../img/grey-check.png");
+  }
+}
+
+@media (max-width: 1023px) {
+  .plan__title {
+    font-size: 50px;
+  }
+  .plan__column {
+    padding: 30px 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 90%;
+            flex: 0 1 90%;
+  }
+  .plan__item {
+    padding: 40px 36px 60px 36px;
+  }
+  .plan__point::before {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .plan__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .plan__item {
+    padding: 20px 10px 60px;
+  }
+  .plan__subtitle {
+    font-size: 25px;
+  }
+  .plan__list {
+    font-size: 14px;
+  }
 }
 
 .countires__title {
