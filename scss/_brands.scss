@@ -3,10 +3,11 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 -15px;
-        justify-content: space-between;
     }
 
     &__column {
+        flex: 0 1 20%;
+        padding: 54px;
     }
 
     &__wrap-pic {
@@ -14,5 +15,45 @@
 
     &__pic {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 1335px) {
+    .brands {
+        &__row {
+            justify-content: center;
+        }
+
+        &__column {
+            flex: 0 1 33.3334%;
+        }
+
+        &__wrap-pic {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .brands {
+        &__row {
+            justify-content: center;
+        }
+
+        &__column {
+            flex: 0 1 50%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .brands {
+        &__row {
+            justify-content: center;
+        }
+
+        &__column {
+            flex: 0 1 100%;
+        }
     }
 }
